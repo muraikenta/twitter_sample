@@ -2,6 +2,7 @@ class UsersController < ApplicationController
   # onlyの中で指定されたactionが実行される直前に実行されるアクション
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
+
   # GET /users
   # GET /users.json
   def index
